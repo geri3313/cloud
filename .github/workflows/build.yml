@@ -30,3 +30,4 @@ jobs:
         repository: geri3313/cloud       
         tags: ${{github.run_number}}
         dockerfile: Laborator 2/Dockerfile
+        context: Laborator 2
