@@ -29,4 +29,4 @@ jobs:
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
         repository: geri3313/cloud       
         tags: ${{github.run_number}}
-        dockerfile: Laborator\ 2/Dockerfile
+        dockerfile: Laborator 2/Dockerfile
