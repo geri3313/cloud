@@ -25,9 +25,10 @@ jobs:
     - name: Publish to Docker Hub
       uses: docker/build-push-action@v1  
       with:       
-        username: ${{ secrets.DOCKER_HUB_USERNAME }} 
-        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-        repository: geri3313/cloud       
-        tags: ${{github.run_number}}
-        dockerfile: Laborator 2/Dockerfile
-        context: Laborator 2
+         username: ${{ secrets.DOCKER_HUB_USERNAME }} 
+         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+         repository: geri3313/cloud       
+         tags: ${{ github.run_number }}
+         dockerfile: Laborator 2/Dockerfile
+         context: Laborator 2
+
